@@ -24,11 +24,11 @@ public class Solution {
         
         ave /= nodes;
         System.out.println("aim average is "+ave );
-       /* 
+       
 		for(int i =0 ;i <nodes ;i++)
 			System.out.println(" now nodes are "+list.get(i));
 		long startTime = System.currentTimeMillis(); 
-		//gossip();
+		gossip();
 		long endTime = System.currentTimeMillis();
 		System.out.println("aim average is "+ave );
 		System.out.println("run time "+(endTime - startTime) + "ms");
@@ -38,7 +38,7 @@ public class Solution {
         	list.get(i).setValue(v);
         	list.get(i).setInterest(1.0);
         	list.get(i).setOver(false);
-        }*/
+        }
 		for(int i =0 ;i <nodes ;i++)
 			System.out.println(" now nodes are "+list.get(i));
 		long startTime = System.currentTimeMillis(); 
